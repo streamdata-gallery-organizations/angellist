@@ -1,25 +1,21 @@
 ---
 name: AngelList
 x-slug: angellist
-description: AngelList is a US website for startups, angel investors, and job-seekers
-  looking to work at startups. The platform has a mission democratizing the investment
-  process. It started as an online introduction board for tech startups that needed
-  seed funding. Now, the site allows startups to raise money from angel investors
-  free of charge. AngelList syndicates allow investors to invite other accredited
-  investors to share in the deals.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+description: AngelList is where the world meets startups. Find a great startup job,
+  invest in a startup, or raise money
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "2447"
 tags: AngelList
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/angellist/master/_listings/angellist/apis.md
 specificationVersion: "0.14"
 apis:
 - name: AngelList Get Accreditation
   x-api-slug: angellist
   description: Pulls the accreditation for a startup and users.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///accreditation
   tags: Startups,Businesses
@@ -31,7 +27,7 @@ apis:
 - name: AngelList Get Comments
   x-api-slug: angellist
   description: Pulls the comments for given object.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///comments
   tags: Startups,Businesses,Comments
@@ -43,7 +39,7 @@ apis:
 - name: AngelList Add Comment
   x-api-slug: angellist
   description: Adds a comment for given object
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///comments
   tags: Startups,Businesses,Comments
@@ -55,7 +51,7 @@ apis:
 - name: AngelList Delete Comment
   x-api-slug: angellist
   description: Deletes a comment for given object
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///comments/{comment_id}
   tags: Startups,Businesses,Comments
@@ -67,7 +63,7 @@ apis:
 - name: AngelList Delete Follow
   x-api-slug: angellist
   description: Delete the follow for given user or startup.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///follows
   tags: Startups,Businesses,Follow
@@ -79,7 +75,7 @@ apis:
 - name: AngelList Add Follow
   x-api-slug: angellist
   description: Add a follow for user or startup on AngelList.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///follows
   tags: Startups,Businesses,Follow
@@ -91,7 +87,7 @@ apis:
 - name: AngelList Get Batch of Follows
   x-api-slug: angellist
   description: Returns a batched lists of follows
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///follows/batch
   tags: Startups,Businesses,Follow
@@ -103,7 +99,7 @@ apis:
 - name: AngelList Get Follows Relationship
   x-api-slug: angellist
   description: Gets the relationships for followers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///follows/relationship
   tags: Startups,Businesses,Relationships
@@ -115,7 +111,7 @@ apis:
 - name: AngelList Get Jobs
   x-api-slug: angellist
   description: Get jobs.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///jobs
   tags: Startups,Businesses,Jobs
@@ -127,7 +123,7 @@ apis:
 - name: AngelList Get Job
   x-api-slug: angellist
   description: Get job.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///jobs/{job_id}
   tags: Startups,Businesses,Jobs
@@ -139,7 +135,7 @@ apis:
 - name: AngelList Add Like
   x-api-slug: angellist
   description: Add like.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///like
   tags: Startups,Businesses,Likes
@@ -151,7 +147,7 @@ apis:
 - name: AngelList Get Likes
   x-api-slug: angellist
   description: Get likes
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///likes
   tags: Startups,Businesses,Likes
@@ -163,7 +159,7 @@ apis:
 - name: AngelList Add Like
   x-api-slug: angellist
   description: Add Like
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///likes
   tags: Startups,Businesses,Likes
@@ -175,7 +171,7 @@ apis:
 - name: AngelList Delete Like
   x-api-slug: angellist
   description: Delete Like
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///likes/{like_id}
   tags: Startups,Businesses,Likes
@@ -187,7 +183,7 @@ apis:
 - name: AngelList Get Me
   x-api-slug: angellist
   description: Get Me
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///me
   tags: Startups,Businesses
@@ -199,7 +195,7 @@ apis:
 - name: AngelList Get Press
   x-api-slug: angellist
   description: Get Press
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///press
   tags: Startups,Businesses,Press
@@ -211,7 +207,7 @@ apis:
 - name: AngelList Get Press
   x-api-slug: angellist
   description: Get Press
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///press/{press_id}
   tags: Startups,Businesses,Press
@@ -223,7 +219,7 @@ apis:
 - name: AngelList Get Reviews
   x-api-slug: angellist
   description: Get Reviews
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///reviews
   tags: Startups,Businesses,Reviews
@@ -235,7 +231,7 @@ apis:
 - name: AngelList Get Review
   x-api-slug: angellist
   description: Get Review
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///reviews/{review_id}
   tags: Startups,Businesses,Reviews
@@ -247,7 +243,7 @@ apis:
 - name: AngelList Search AngelList
   x-api-slug: angellist
   description: Search AngelList.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///search
   tags: Startups,Businesses,Search
@@ -259,7 +255,7 @@ apis:
 - name: AngelList Search Slugs
   x-api-slug: angellist
   description: Search by slug
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///search/slugs
   tags: Startups,Businesses,Search
@@ -271,7 +267,7 @@ apis:
 - name: AngelList Search Startups
   x-api-slug: angellist
   description: Search Startups
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///startups
   tags: Startups,Businesses,Search
@@ -283,7 +279,7 @@ apis:
 - name: AngelList Get Startup
   x-api-slug: angellist
   description: Get Startup
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///startups/{startup_id}
   tags: Startups,Businesses
@@ -295,7 +291,7 @@ apis:
 - name: AngelList Get Startup Comments
   x-api-slug: angellist
   description: Get Startup Comments
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///startups/{startup_id}/comments
   tags: Startups,Businesses,Comments
@@ -307,7 +303,7 @@ apis:
 - name: AngelList Get Startup Followers
   x-api-slug: angellist
   description: Get Startup Followers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///startups/{startup_id}/followers
   tags: Startups,Businesses,Followers
@@ -319,7 +315,7 @@ apis:
 - name: AngelList Get Startup Followers IDs
   x-api-slug: angellist
   description: Get Startup Followers IDs
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///startups/{startup_id}/followers/ids
   tags: Startups,Businesses,Followers
@@ -331,7 +327,7 @@ apis:
 - name: AngelList Get Startup Roles
   x-api-slug: angellist
   description: Get Startup Roles
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///startups/{startup_id}/roles
   tags: Startups,Businesses,Roles
@@ -343,7 +339,7 @@ apis:
 - name: AngelList Get Startup Roles
   x-api-slug: angellist
   description: Get Startup Roles
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///startup_roles
   tags: Startups,Businesses,Roles
@@ -355,7 +351,7 @@ apis:
 - name: AngelList Get Status Updates
   x-api-slug: angellist
   description: Get Status Updates
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///status_updates
   tags: Startups,Businesses,Status
@@ -367,7 +363,7 @@ apis:
 - name: AngelList Add Status Update
   x-api-slug: angellist
   description: Add Status Update
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///status_updates
   tags: Startups,Businesses,Status
@@ -379,7 +375,7 @@ apis:
 - name: AngelList Delete Status Update
   x-api-slug: angellist
   description: Delete Status Update
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///status_updates/{status_update_id}
   tags: Startups,Businesses,Status
@@ -391,7 +387,7 @@ apis:
 - name: AngelList Get Tag
   x-api-slug: angellist
   description: Get Tag
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///tags/{tag_id}
   tags: Startups,Businesses,Tags
@@ -403,7 +399,7 @@ apis:
 - name: AngelList Get Tags Children
   x-api-slug: angellist
   description: Get Tags Children
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///tags/{tag_id}/children
   tags: Startups,Businesses,Tags
@@ -415,7 +411,7 @@ apis:
 - name: AngelList Get Jobs by Tag
   x-api-slug: angellist
   description: Get Jobs by Tag
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///tags/{tag_id}/jobs
   tags: Startups,Businesses,Tags
@@ -427,7 +423,7 @@ apis:
 - name: AngelList Get Tag Parents
   x-api-slug: angellist
   description: Get Tag Parents
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///tags/{tag_id}/parents
   tags: Startups,Businesses,Tags
@@ -439,7 +435,7 @@ apis:
 - name: AngelList Get Startups by Tag
   x-api-slug: angellist
   description: Get Startups by Tag
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///tags/{tag_id}/startups
   tags: Startups,Businesses,Tags
@@ -451,7 +447,7 @@ apis:
 - name: AngelList Get Users by Tag
   x-api-slug: angellist
   description: Get Users by Tag
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///tags/{tag_id}/users
   tags: Startups,Businesses,Tags,Users
@@ -463,7 +459,7 @@ apis:
 - name: AngelList User Search
   x-api-slug: angellist
   description: User Search
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///users/search
   tags: Startups,Businesses,Users
@@ -475,7 +471,7 @@ apis:
 - name: AngelList Get User
   x-api-slug: angellist
   description: Get User
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///users/{user_id}
   tags: Startups,Businesses,Users
@@ -487,7 +483,7 @@ apis:
 - name: AngelList Get User Followers
   x-api-slug: angellist
   description: Get User Followers
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///users/{user_id}/followers
   tags: Startups,Businesses,Users,Followers
@@ -499,7 +495,7 @@ apis:
 - name: AngelList Get User Follower IDs
   x-api-slug: angellist
   description: Get User Follower IDs
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///users/{user_id}/followers/ids
   tags: Startups,Businesses,Users,Followers
@@ -511,7 +507,7 @@ apis:
 - name: AngelList Get Users Following
   x-api-slug: angellist
   description: Get Users Following
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///users/{user_id}/following
   tags: Startups,Businesses,Users,Followers
@@ -523,7 +519,7 @@ apis:
 - name: AngelList Get User Following IDs
   x-api-slug: angellist
   description: Get User Following IDs
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1///users/{user_id}/following/ids
   tags: Startups,Businesses,Users,Followers
@@ -534,13 +530,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/angellist/master/_listings/angellist/usersuser-idfollowingids-get-openapi.md
 - name: AngelList
   x-api-slug: angellist
-  description: AngelList is a US website for startups, angel investors, and job-seekers
-    looking to work at startups. The platform has a mission democratizing the investment
-    process. It started as an online introduction board for tech startups that needed
-    seed funding. Now, the site allows startups to raise money from angel investors
-    free of charge. AngelList syndicates allow investors to invite other accredited
-    investors to share in the deals.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+  description: AngelList is where the world meets startups. Find a great startup job,
+    invest in a startup, or raise money
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: AngelList
@@ -558,15 +550,29 @@ x-common:
   url: http://blog.angel.co/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/angellist
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/angellist
 - type: x-developer
   url: https://angel.co/api
+- type: x-email
+  url: copyright@angel.co
+- type: x-email
+  url: syndicates@angel.co
+- type: x-email
+  url: team@angel.co
+- type: x-email
+  url: talent@angel.co
+- type: x-email
+  url: privacy@angel.co
+- type: x-email
+  url: abuse@angel.co
 - type: x-github
   url: https://github.com/angellist
 - type: x-postman-collection
   url: http://theapistack.com/data/angellist/angellist-postman-collection.json
 - type: x-privacy
   url: https://angel.co/privacy
-- type: x-sdksio
+- type: x-sdks-io
   url: https://sdks.io/SDK/View/angellist-startup-api
 - type: x-support
   url: https://angel.co/help
