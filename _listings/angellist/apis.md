@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angell
 x-kinRank: "9"
 x-alexaRank: "2447"
 tags: AngelList
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/angellist/master/_listings/angellist/apis.md
 specificationVersion: "0.14"
 apis:
