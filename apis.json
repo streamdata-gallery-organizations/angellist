@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AngelList",
+	"description": "This is a repository of angellist APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/angellist.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://angellist.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AngelList",
+			"x-api-slug": "angellist",
+			"description": "AngelList is where the world meets startups. Find a great startup job, invest in a startup, or raise money",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg",
+			"humanURL": "http://angel.co",
+			"baseURL": "https://api.angel.co//1/",
+			"tags": "AngelList",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/angellist/master/_listings/angellist/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AngelList",
+	"include": [
+		{
+			"name": "AngelList",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/angellist/master/_listings/angellist/apis.yaml"
+		}
+	]
+}
